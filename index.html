@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turn-Based Battle Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>⚔️ Turn Battle ⚔️</h1>
+    <div class="battlefield">
+      <div class="character player">
+        <div class="sprite" id="player-sprite"></div>
+        <p id="player-hp">HP: 100</p>
+      </div>
+      <div class="character enemy">
+        <div class="sprite" id="enemy-sprite"></div>
+        <p id="enemy-hp">HP: 100</p>
+      </div>
+    </div>
+
+    <div id="message-box">Your Turn!</div>
+
+    <div class="actions">
+      <button id="attack-btn">Attack ⚔️</button>
+      <button id="heal-btn">Heal 💖</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
